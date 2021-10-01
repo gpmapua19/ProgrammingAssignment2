@@ -1,7 +1,6 @@
 ## Functions that cache the inverse of matrix
 ### USE: To pass the result of makeCacheMatrix to cacheSolve
 ## Function set the matrix and the inverse in the environment
-## x will be an invertible matrix 
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
